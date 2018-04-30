@@ -1,0 +1,159 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "typescript.check.npmIsInstalled": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.otherModesKeyBindings": [
+    {
+      "before": ["ctrl", "d"],
+      "after": ["ctrl+d"]
+    }
+  ],
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+        "before": ["u"],
+        "after": [],
+        "commands": [
+            {
+                "command": "undo",
+                "args": []
+            }
+        ]
+    },
+    {
+        "before": ["<C-r>"],
+        "after": [],
+        "commands": [
+            {
+                "command": "redo",
+                "args": []
+            }
+        ]
+    }
+  ],
+  "vim.neovimPath": "/usr/local/bin/nvim",
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": ",",
+  "vim.surround": true,
+  "vim.enableNeovim": true,
+  "editor.tabSize": 2,
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.lineNumbers": "on",
+  "files.associations": {
+    "*.def": "dotjs",
+    "*.jst": "dotjs"
+  },
+  "beautify.config": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "end_with_newline": true
+  },
+  "sync.gist": "",
+  "sync.lastUpload": "",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "sync.anonymousGist": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "insertDateString.format": "YYYY-MM-DD\n==========\n",
+  "editor.renderWhitespace": "boundary",
+  "files.trimTrailingWhitespace": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.confirmSync": false,
+  "dateTime.showDayOfMonth": true,
+  "dateTime.showMonth": true,
+  "editor.smoothScrolling": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+  "window.restoreWindows": "one",
+  "editor.mouseWheelScrollSensitivity": 2,
+  "zenMode.hideTabs": false,
+  "zenMode.restore": true,
+  "zenMode.hideStatusBar": false,
+  "workbench.activityBar.visible": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": true,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "workbench.editor.showTabs": true,
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "emmet.triggerExpansionOnTab": true,
+  "window.zoomLevel": 0,
+  "vim.statusBarColorControl": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#1c3f77",
+    // "editor.background": "#2f2f2f",
+    // "statusBar.background": "#242424",
+    // "statusBar.foreground": "#a1a1a1",
+    "[Downpour (rainglow)]": {
+      "statusBar.background": "#232831",
+      "editorSuggestWidget.background": "#232831"
+    },
+    "[Dare (rainglow)]": {
+      "statusBar.background": "#232831",
+      "editorSuggestWidget.background": "#232831"
+    },
+    "[Brave (rainglow)]": {
+      "statusBar.background": "#232831",
+      "editorSuggestWidget.background": "#232831"
+    },
+    "[Userscape (rainglow)]": {
+      "statusBar.background": "#232831",
+      "editorSuggestWidget.background": "#232831"
+    },
+    "[Carbonight (rainglow)]": {
+      "statusBar.background": "#242424",
+      "statusBar.foreground": "#a1a1a1"
+    },
+    "[Glance (rainglow)]": {
+      "statusBar.background": "#242424",
+      "statusBar.foreground": "#a1a1a1"
+    },
+    "[Tomorrow Night]": {
+      "statusBar.background": "#343434",
+      "statusBar.foreground": "#f1f1f1"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Carbonight (rainglow)]": {
+      "comments": "#575757"
+    },
+  },
+  "gitlens.keymap": "alternate",
+  "zenMode.centerLayout": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "workbench.colorTheme": "Brave (rainglow)",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "file-icons",
+  "materialTheme.cache.workbench.settings": {
+    "accentPrevious": "Breaking Bad"
+  },
+  "material-icon-theme.folders.theme": "classic",
+}

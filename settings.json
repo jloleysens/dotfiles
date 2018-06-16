@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
@@ -44,7 +44,7 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "vim.leader": ",",
+  "vim.leader": "\\",
   "vim.surround": true,
   "vim.enableNeovim": true,
   "editor.tabSize": 2,
@@ -59,18 +59,16 @@
     "indent_char": " ",
     "end_with_newline": true
   },
-  "sync.gist": "",
-  "sync.lastUpload": "",
+  "sync.gist": "2cf4ace399e1d40c26696aece8d1dbfb",
+  "sync.lastUpload": "2018-05-09T11:40:09.890Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",
   "sync.forceDownload": false,
-  "sync.anonymousGist": false,
   "sync.host": "",
   "sync.pathPrefix": "",
   "sync.quietSync": false,
   "sync.askGistName": false,
-  "insertDateString.format": "YYYY-MM-DD\n==========\n",
   "editor.renderWhitespace": "boundary",
   "files.trimTrailingWhitespace": true,
   "workbench.startupEditor": "newUntitledFile",
@@ -88,15 +86,9 @@
   "zenMode.hideStatusBar": false,
   "workbench.activityBar.visible": false,
   "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": true,
-    "suppressResultsExplorerNotice": false,
+    "suppressResultsExplorerNotice": true,
     "suppressShowKeyBindingsNotice": true,
-    "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
   "workbench.editor.showTabs": true,
@@ -106,15 +98,22 @@
   "vim.statusBarColorControl": false,
   "workbench.statusBar.feedback.visible": false,
   "workbench.colorCustomizations": {
-    "editor.selectionBackground": "#1c3f77",
-    // "editor.background": "#2f2f2f",
-    // "statusBar.background": "#242424",
-    // "statusBar.foreground": "#a1a1a1",
+    // "editor.selectionBackground": "#1c3f77",
+    "statusBar.background": "#242424",
+    "statusBar.foreground": "#a1a1a1",
+    "[Downpour Contrast (rainglow)]": {
+      "statusBar.background": "#232831",
+      "editorSuggestWidget.background": "#232831"
+    },
     "[Downpour (rainglow)]": {
       "statusBar.background": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
     "[Dare (rainglow)]": {
+      "statusBar.background": "#232831",
+      "editorSuggestWidget.background": "#232831"
+    },
+    "[Blink (rainglow)]": {
       "statusBar.background": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
@@ -148,12 +147,9 @@
   "zenMode.centerLayout": false,
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
-  "workbench.colorTheme": "Brave (rainglow)",
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "file-icons",
-  "materialTheme.cache.workbench.settings": {
-    "accentPrevious": "Breaking Bad"
-  },
-  "material-icon-theme.folders.theme": "classic",
+  "workbench.colorTheme": "Blink (rainglow)",
+  "gitlens.historyExplorer.enabled": true
 }

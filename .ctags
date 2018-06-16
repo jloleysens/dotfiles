@@ -1,9 +1,12 @@
 --recurse=yes
 --tag-relative=yes
 --exclude=.git
+--exclude=log
 --exclude=node_modules
 --exclude=template_packs
 --exclude=dist
+
+--languages=ruby
 
 --langdef=js
 --langmap=js:.js

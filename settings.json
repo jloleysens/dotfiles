@@ -60,7 +60,7 @@
     "end_with_newline": true
   },
   "sync.gist": "2cf4ace399e1d40c26696aece8d1dbfb",
-  "sync.lastUpload": "2018-05-09T11:40:09.890Z",
+  "sync.lastUpload": "2018-06-22T12:48:59.819Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",
@@ -103,34 +103,52 @@
     "statusBar.foreground": "#a1a1a1",
     "[Downpour Contrast (rainglow)]": {
       "statusBar.background": "#232831",
+      "statusBar.noFolderBackground": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
     "[Downpour (rainglow)]": {
       "statusBar.background": "#232831",
+      "statusBar.noFolderBackground": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
     "[Dare (rainglow)]": {
       "statusBar.background": "#232831",
+      "statusBar.noFolderBackground": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
     "[Blink (rainglow)]": {
       "statusBar.background": "#232831",
+      "statusBar.noFolderBackground": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
     "[Brave (rainglow)]": {
       "statusBar.background": "#232831",
+      "statusBar.noFolderBackground": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
     "[Userscape (rainglow)]": {
       "statusBar.background": "#232831",
+      "statusBar.noFolderBackground": "#232831",
+      "editorSuggestWidget.background": "#232831"
+    },
+    "[Frantic (rainglow)]": {
+      "statusBar.background": "#232831",
+      "statusBar.noFolderBackground": "#232831",
       "editorSuggestWidget.background": "#232831"
     },
     "[Carbonight (rainglow)]": {
       "statusBar.background": "#242424",
+      "statusBar.noFolderBackground": "#242424",
       "statusBar.foreground": "#a1a1a1"
     },
     "[Glance (rainglow)]": {
       "statusBar.background": "#242424",
+      "statusBar.noFolderBackground": "#242424",
+      "statusBar.foreground": "#a1a1a1"
+    },
+    "[Rainbow (rainglow)]": {
+      "statusBar.background": "#464646",
+      "statusBar.noFolderBackground": "#242424",
       "statusBar.foreground": "#a1a1a1"
     },
     "[Tomorrow Night]": {
@@ -150,6 +168,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "file-icons",
-  "workbench.colorTheme": "Blink (rainglow)",
+  "workbench.colorTheme": "Frantic (rainglow)",
   "gitlens.historyExplorer.enabled": true
 }

@@ -51,7 +51,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-open)
+plugins=(git-open)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -139,67 +139,67 @@ alias ve='vi ~/.vimrc'
 # zsh profile editing
 alias ze='vi ~/.zshrc'
 
-# Git Aliases
-alias gs='git status'
-alias gst='git stash'
-alias gsp='git stash pop'
-alias gsa='git stash apply'
-alias gsh='git show'
-alias gi='vi .gitignore'
-alias gcm='git ci -m'
-alias gcim='git ci -m'
-alias gci='git ci'
-alias gca='git ca'
-alias gco='git co'
-alias gcp='git cp'
-alias ga='git add -A'
-alias gap='git add -p'
-alias guns='git unstage'
-alias gunc='git uncommit'
-alias gm='git merge'
-alias gms='git merge --squash'
-alias gam='git amend --reset-author'
-alias grv='git remote -v'
-alias grr='git remote rm'
-alias grad='git remote add'
-alias gr='git rebase'
-alias gra='git rebase --abort'
-alias grc='git rebase --continue'
-alias gbi='git rebase --interactive'
-alias gl='git l'
-alias glg='git l'
-alias glog='git l'
-alias glp='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
-alias gf='git fetch'
-alias gfp='git fetch --prune'
-alias gfa='git fetch --all'
-alias gfap='git fetch --all --prune'
-alias gd='git diff'
-alias gb='git b'
-# Staged and cached are the same thing
-alias gdc='git diff --cached -w'
-alias gds='git diff --staged -w'
-alias gpub='grb publish'
-alias gtr='grb track'
-alias gpl='git pull'
-alias gplr='git pull --rebase'
-alias gps='git push'
-alias gpsf='git push --force'
-alias gpsh='git push -u origin `git rev-parse --abbrev-ref HEAD`'
-alias gnb='git nb' # new branch aka checkout -b
-alias grs='git reset'
-alias grsh='git reset --hard'
-alias gcln='git clean'
-alias gclndf='git clean -df'
-alias gclndfx='git clean -dfx'
-alias gsm='git submodule'
-alias gsmi='git submodule init'
-alias gsmu='git submodule update'
-alias gt='git t'
-alias gbg='git bisect good'
-alias gbb='git bisect bad'
-alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
-alias gx='gitx'
+# # Git Aliases
+# alias gs='git status'
+# alias gst='git stash'
+# alias gsp='git stash pop'
+# alias gsa='git stash apply'
+# alias gsh='git show'
+# alias gi='vi .gitignore'
+# alias gcm='git ci -m'
+# alias gcim='git ci -m'
+# alias gci='git ci'
+# alias gca='git ca'
+# alias gco='git co'
+# alias gcp='git cp'
+# alias ga='git add -A'
+# alias gap='git add -p'
+# alias guns='git unstage'
+# alias gunc='git uncommit'
+# alias gm='git merge'
+# alias gms='git merge --squash'
+# alias gam='git amend --reset-author'
+# alias grv='git remote -v'
+# alias grr='git remote rm'
+# alias grad='git remote add'
+# alias gr='git rebase'
+# alias gra='git rebase --abort'
+# alias grc='git rebase --continue'
+# alias gbi='git rebase --interactive'
+# alias gl='git l'
+# alias glg='git l'
+# alias glog='git l'
+# alias glp='git log --pretty=format:"%h%x09%an%x09%ad%x09%s"'
+# alias gf='git fetch'
+# alias gfp='git fetch --prune'
+# alias gfa='git fetch --all'
+# alias gfap='git fetch --all --prune'
+# alias gd='git diff'
+# alias gb='git b'
+# # Staged and cached are the same thing
+# alias gdc='git diff --cached -w'
+# alias gds='git diff --staged -w'
+# alias gpub='grb publish'
+# alias gtr='grb track'
+# alias gpl='git pull'
+# alias gplr='git pull --rebase'
+# alias gps='git push'
+# alias gpsf='git push --force'
+# alias gpsh='git push -u origin `git rev-parse --abbrev-ref HEAD`'
+# alias gnb='git nb' # new branch aka checkout -b
+# alias grs='git reset'
+# alias grsh='git reset --hard'
+# alias gcln='git clean'
+# alias gclndf='git clean -df'
+# alias gclndfx='git clean -dfx'
+# alias gsm='git submodule'
+# alias gsmi='git submodule init'
+# alias gsmu='git submodule update'
+# alias gt='git t'
+# alias gbg='git bisect good'
+# alias gbb='git bisect bad'
+# alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+# alias gx='gitx'
 
 # Common shell functions
 alias less='less -r'
@@ -219,23 +219,9 @@ alias cod='script/console --debugger'
 alias ka9='killall -9'
 alias k9='kill -9'
 
-# Forward port 80 to 3000
-alias portforward='sudo ipfw add 1000 forward 127.0.0.1,3000 ip from any to any 80 in'
-
-alias hpr='hub pull-request'
-alias grb='git recent-branches'
-
 # Finder
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-
-alias dbtp='spring rake db:test:prepare'
-alias dbm='spring rake db:migrate'
-alias dbmr='spring rake db:migrate:redo'
-alias dbmd='spring rake db:migrate:down'
-alias dbmu='spring rake db:migrate:up'
-
-alias atom="atom --force-gpu-rasterization"
 
 # Case insenstive grep matching for input
 alias -g G='| grep -i'
@@ -249,13 +235,10 @@ alias dcs='docker-compose stop'
 alias dcb='docker-compose build'
 alias dcn='docker-compose rm -v'
 
-source $HOME/.zshrc-work
+# rails logging stuff
+# alias tfjq='tail -f log/development.log | jq "{ path: .mdc.path, status: .mdc.status, method: .mdc.request_method, message: .message }"'
 
-export DOCKER_TLS_VERIFY="1"
-export DOCKER_HOST="tcp://192.168.99.100:2376"
-export DOCKER_CERT_PATH="/Users/jeanlouis/.docker/machine/machines/default"
-export DOCKER_MACHINE_NAME="default"
-export LISTEN_IP=192.168.99.1
+# source $HOME/.zshrc-work
 
 source ~/.my-zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH/plugins/fasd/fasd.plugin.zsh

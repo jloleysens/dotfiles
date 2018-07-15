@@ -98,7 +98,7 @@
   "vim.statusBarColorControl": false,
   "workbench.statusBar.feedback.visible": false,
   "workbench.colorCustomizations": {
-    // "editor.selectionBackground": "#1c3f77",
+    "editor.selectionBackground": "#1c3f77",
     "statusBar.background": "#242424",
     "statusBar.foreground": "#a1a1a1",
     "[Downpour Contrast (rainglow)]": {
@@ -168,6 +168,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "file-icons",
-  "workbench.colorTheme": "Frantic (rainglow)",
-  "gitlens.historyExplorer.enabled": true
+  "workbench.colorTheme": "Blink (rainglow)",
+  "gitlens.historyExplorer.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }

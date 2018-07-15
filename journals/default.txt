@@ -1,0 +1,4 @@
+2018-07-15 09:00 created first journal entry
+
+2018-07-15 13:23 Need to look at running electron app on Windows with latest
+main settings @work

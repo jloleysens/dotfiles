@@ -1,0 +1,19 @@
+# Work stuffs
+# Quick nav
+alias je='cd $HOME/dev/journey-app-editor'
+alias jjs='cd $HOME/dev/journey-js'
+alias jr='cd $HOME/dev/journey-runtime'
+alias ja='cd $HOME/dev/journey-accounts'
+alias jb='cd $HOME/dev/journey-app-backend'
+alias jdev='cd $HOME/dev/journey-dev'
+alias rl='cd $HOME/dev/rocketlib'
+alias aj='cd $HOME/dev/ansible-journey'
+
+# The cli tool
+alias jd='journey-dev'
+
+# export DOCKER_TLS_VERIFY="2"
+# export DOCKER_HOST="tcp://192.168.99.100:2376"
+# export DOCKER_CERT_PATH="/Users/jeanlouis/.docker/machine/machines/default"
+# export DOCKER_MACHINE_NAME="default"
+# export LISTEN_IP=192.168.99.1

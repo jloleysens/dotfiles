@@ -85,7 +85,6 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="nvim"
 alias c="code"
-alias m="mine"
 alias :q="exit"
 alias l="ls"
 alias llh="ll -lhs"
@@ -236,9 +235,9 @@ alias dcb='docker-compose build'
 alias dcn='docker-compose rm -v'
 
 # rails logging stuff
-# alias tfjq='tail -f log/development.log | jq "{ path: .mdc.path, status: .mdc.status, method: .mdc.request_method, message: .message }"'
+alias tfjq='tail -f log/development.log | jq "{ path: .mdc.path, status: .mdc.status, method: .mdc.request_method, message: .message }"'
 
-# source $HOME/.zshrc-work
+source $HOME/.zshrc-work
 
 source ~/.my-zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH/plugins/fasd/fasd.plugin.zsh

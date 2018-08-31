@@ -51,7 +51,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git-open)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,6 +115,16 @@ if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
 # Hub stuff
 eval "$(hub alias -s)"
+
+# hub
+# alias -g "git open"="git browse"
+hub() {
+    if [[ $@ == "open"  ]]; then
+        command hub browse
+    else
+        command hub "$@"
+    fi
+}
 
 # PS
 alias psg="ps aux | grep "
@@ -236,6 +246,8 @@ alias dcn='docker-compose rm -v'
 
 # rails logging stuff
 alias tfjq='tail -f log/development.log | jq "{ path: .mdc.path, status: .mdc.status, method: .mdc.request_method, message: .message }"'
+
+
 
 source $HOME/.zshrc-work
 

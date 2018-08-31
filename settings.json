@@ -11,34 +11,6 @@
       "after": ["<Esc>"]
     }
   ],
-  "vim.otherModesKeyBindings": [
-    {
-      "before": ["ctrl", "d"],
-      "after": ["ctrl+d"]
-    }
-  ],
-  "vim.otherModesKeyBindingsNonRecursive": [
-    {
-        "before": ["u"],
-        "after": [],
-        "commands": [
-            {
-                "command": "undo",
-                "args": []
-            }
-        ]
-    },
-    {
-        "before": ["<C-r>"],
-        "after": [],
-        "commands": [
-            {
-                "command": "redo",
-                "args": []
-            }
-        ]
-    }
-  ],
   "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
@@ -60,7 +32,7 @@
     "end_with_newline": true
   },
   "sync.gist": "2cf4ace399e1d40c26696aece8d1dbfb",
-  "sync.lastUpload": "2018-06-22T12:48:59.819Z",
+  "sync.lastUpload": "2018-08-17T07:23:17.319Z",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.lastDownload": "",

@@ -3,7 +3,6 @@
   "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": true,
   "typescript.check.npmIsInstalled": false,
   "vim.insertModeKeyBindings": [
     {
@@ -142,5 +141,13 @@
   "workbench.iconTheme": "file-icons",
   "workbench.colorTheme": "Blink (rainglow)",
   "gitlens.historyExplorer.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "flowide.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "editor.fontLigatures": true,
+  "gitlens.advanced.caching.enabled": false,
+  "gitlens.blame.heatmap.enabled": false,
+  "search.exclude": {
+    "**/www": true
+  },
 }

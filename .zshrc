@@ -262,14 +262,6 @@ source $ZSH/plugins/fasd/fasd.plugin.zsh
 eval "$(rbenv init -)"
 
 
-_direnv_hook() {
-  eval "$(direnv export zsh)";
-}
-typeset -ag precmd_functions;
-if [[ -z ${precmd_functions[(r)_direnv_hook]} ]]; then
-  precmd_functions+=_direnv_hook;
-fi
-
 # Yarn stuff
 export PATH=$PATH:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.yarn/bin
 

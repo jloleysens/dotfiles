@@ -709,16 +709,20 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>345 116 703 94 0 0 1680 1028 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>-1562 1746 400 129 -2642 1050 2560 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 477 620 392 0 0 1680 1028 </string>
+	<string>530 489 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>312 217 606 469 0 0 1680 1028 </string>
+	<string>312 217 606 469 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>404 430 796 473 0 0 1680 1028 </string>
+	<string>409 442 918 452 0 0 1680 1027 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>0 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1680 1028 0 0 1680 1028 </string>
+	<string>191 195 1235 705 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 454 810 527 0 0 1680 1050 </string>
+	<string>-101 1050 1920 1058 -101 1050 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>799 228 810 527 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -934,7 +938,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>80</integer>
+			<integer>138</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -1345,7 +1349,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>25</integer>
+			<integer>42</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -1462,7 +1466,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-07-12T11:39:50Z</date>
+	<date>2018-10-30T14:02:14Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -1473,6 +1477,8 @@
 	<real>0.20153245192307695</real>
 	<key>TabStyle</key>
 	<integer>1</integer>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1535961600</real>
 	<key>Window Arrangements</key>
 	<dict>
 		<key>1</key>
@@ -25043,7 +25049,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.7</string>
+	<string>3.2.5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

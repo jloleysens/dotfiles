@@ -20,7 +20,7 @@
   "vim.enableNeovim": true,
   "editor.tabSize": 2,
   "terminal.external.osxExec": "iTerm.app",
-  "editor.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
   "files.associations": {
     "*.def": "dotjs",
     "*.jst": "dotjs"
@@ -70,66 +70,21 @@
   "workbench.statusBar.feedback.visible": false,
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#1c3f77",
-    "statusBar.background": "#242424",
-    "statusBar.foreground": "#a1a1a1",
-    "[Downpour Contrast (rainglow)]": {
-      "statusBar.background": "#232831",
-      "statusBar.noFolderBackground": "#232831",
-      "editorSuggestWidget.background": "#232831"
-    },
-    "[Downpour (rainglow)]": {
-      "statusBar.background": "#232831",
-      "statusBar.noFolderBackground": "#232831",
-      "editorSuggestWidget.background": "#232831"
-    },
-    "[Dare (rainglow)]": {
-      "statusBar.background": "#232831",
-      "statusBar.noFolderBackground": "#232831",
-      "editorSuggestWidget.background": "#232831"
-    },
     "[Blink (rainglow)]": {
-      "statusBar.background": "#232831",
-      "statusBar.noFolderBackground": "#232831",
-      "editorSuggestWidget.background": "#232831"
-    },
-    "[Brave (rainglow)]": {
-      "statusBar.background": "#232831",
-      "statusBar.noFolderBackground": "#232831",
-      "editorSuggestWidget.background": "#232831"
-    },
-    "[Userscape (rainglow)]": {
-      "statusBar.background": "#232831",
-      "statusBar.noFolderBackground": "#232831",
-      "editorSuggestWidget.background": "#232831"
-    },
-    "[Frantic (rainglow)]": {
-      "statusBar.background": "#232831",
-      "statusBar.noFolderBackground": "#232831",
-      "editorSuggestWidget.background": "#232831"
-    },
-    "[Carbonight (rainglow)]": {
       "statusBar.background": "#242424",
-      "statusBar.noFolderBackground": "#242424",
-      "statusBar.foreground": "#a1a1a1"
+      "statusBar.foreground": "#a1a1a1",
     },
-    "[Glance (rainglow)]": {
+    "[Default Dark+]": {
       "statusBar.background": "#242424",
-      "statusBar.noFolderBackground": "#242424",
-      "statusBar.foreground": "#a1a1a1"
+      "statusBar.foreground": "#a1a1a1",
     },
-    "[Rainbow (rainglow)]": {
-      "statusBar.background": "#464646",
-      "statusBar.noFolderBackground": "#242424",
-      "statusBar.foreground": "#a1a1a1"
+    "[Visual Studio Dark]": {
+      "statusBar.background": "#242424",
+      "statusBar.foreground": "#a1a1a1",
     },
-    "[Tomorrow Night]": {
-      "statusBar.background": "#343434",
-      "statusBar.foreground": "#f1f1f1"
-    }
-  },
-  "editor.tokenColorCustomizations": {
-    "[Carbonight (rainglow)]": {
-      "comments": "#575757"
+    "[Horizon]": {
+      "editorCursor.foreground": "#a1a1a1",
+      "editorLineNumber.foreground": "#404040",
     },
   },
   "gitlens.keymap": "alternate",
@@ -139,15 +94,24 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "file-icons",
-  "workbench.colorTheme": "Blink (rainglow)",
-  "gitlens.historyExplorer.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "flowide.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
-  "editor.fontLigatures": true,
   "gitlens.advanced.caching.enabled": false,
   "gitlens.blame.heatmap.enabled": false,
   "search.exclude": {
     "**/www": true
   },
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "editor.fontWeight": "500",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Dracula Soft",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }

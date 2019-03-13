@@ -662,7 +662,7 @@
 		</dict>
 	</dict>
 	<key>HideScrollbar</key>
-	<false/>
+	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -716,11 +716,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>312 217 606 469 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>409 442 918 452 0 0 1680 1027 </string>
+	<string>409 408 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>0 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>191 195 1235 705 0 0 1680 1027 </string>
+	<string>96 1133 1405 867 -140 1050 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-101 1050 1920 1058 -101 1050 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -995,8 +995,34 @@
 			</dict>
 			<key>Guid</key>
 			<string>12F20533-CB47-4FC5-9B59-6D5647284D3C</string>
+			<key>Has Hotkey</key>
+			<true/>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
+			<key>HotKey Activated By Modifier</key>
+			<false/>
+			<key>HotKey Alternate Shortcuts</key>
+			<array/>
+			<key>HotKey Characters</key>
+			<string>`</string>
+			<key>HotKey Characters Ignoring Modifiers</key>
+			<string>`</string>
+			<key>HotKey Key Code</key>
+			<integer>50</integer>
+			<key>HotKey Modifier Activation</key>
+			<integer>0</integer>
+			<key>HotKey Modifier Flags</key>
+			<integer>262144</integer>
+			<key>HotKey Window Animates</key>
+			<true/>
+			<key>HotKey Window AutoHides</key>
+			<true/>
+			<key>HotKey Window Dock Click Action</key>
+			<integer>0</integer>
+			<key>HotKey Window Floats</key>
+			<true/>
+			<key>HotKey Window Reopens On Activation</key>
+			<false/>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>

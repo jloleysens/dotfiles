@@ -146,3 +146,5 @@
 	required = true
 [gpg]
 	program = gpg
+[commit]
+	gpgsign = true

@@ -1,4 +1,5 @@
-# Work stuffs
+# Work stuff
+export AWS_VAULT_KEYCHAIN_NAME=login
 # Quick nav
 alias je='cd $HOME/dev/journey-app-editor'
 alias jjs='cd $HOME/dev/journey-js'

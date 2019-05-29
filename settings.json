@@ -1,15 +1,16 @@
 // Place your settings in this file to overwrite the default settings
 {
+
+
+
   "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Fira Code'",
   "typescript.check.npmIsInstalled": false,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "k"],
-      "after": ["<Esc>"]
-    }
-  ],
+  "vim.insertModeKeyBindings": [{
+    "before": ["j", "k"],
+    "after": ["<Esc>"]
+  }],
   "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
@@ -86,6 +87,10 @@
       "editorCursor.foreground": "#a1a1a1",
       "editorLineNumber.foreground": "#404040",
     },
+    "[Laravel (rainglow)]": {
+      "statusBar.background": "#242424",
+      "statusBar.foreground": "#a1a1a1",
+    },
   },
   "gitlens.keymap": "alternate",
   "zenMode.centerLayout": false,
@@ -111,7 +116,13 @@
     "strings": false
   },
   "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "Dracula Soft",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Blink (rainglow)",
 }

@@ -734,9 +734,9 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>0 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 160 1390 867 0 0 1680 1027 </string>
+	<string>-20 1170 1390 891 -140 1050 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 23 1680 1004 0 0 1680 1027 </string>
+	<string>0 0 1680 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>799 228 810 527 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -1030,7 +1030,7 @@
 			<key>HotKey Window Animates</key>
 			<true/>
 			<key>HotKey Window AutoHides</key>
-			<false/>
+			<true/>
 			<key>HotKey Window Dock Click Action</key>
 			<integer>0</integer>
 			<key>HotKey Window Floats</key>
@@ -1510,7 +1510,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-05-20T06:54:33Z</date>
+	<date>2019-06-20T13:18:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>

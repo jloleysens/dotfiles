@@ -1,0 +1,5 @@
+set nocompatible
+set relativenumber
+set syntax=on
+
+inoremap jk <esc>

@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/jeanlouis/.oh-my-zsh
+export ZSH=/${HOME}/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -89,7 +89,7 @@ function sternj() {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vi="nvim"
+# alias vi="nvim"
 alias c="code"
 alias :q="exit"
 alias l="ls"
@@ -283,7 +283,7 @@ export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib
 export NVM_DIR="$HOME/.nvm"
  . "/usr/local/opt/nvm/nvm.sh"
 
-export PATH=/Users/jeanlouis/.local/bin/luna-studio:$PATH
+export PATH=/${HOME}/.local/bin/luna-studio:$PATH
 
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
@@ -300,3 +300,9 @@ export GPG_TTY
 
 autoload -U promptinit; promptinit
 prompt pure
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '${HOME}.gc/google-cloud-sdk/path.zsh.inc' ]; then . '/${HOME}.gc/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '${HOME}.gc/google-cloud-sdk/completion.zsh.inc' ]; then . '/${HOME}/.gc/google-cloud-sdk/completion.zsh.inc'; fi

@@ -98,8 +98,8 @@ alias llh="ll -lhs"
 export PATH=/usr/local/bin:$PATH
 
 # rbenv by homebrew
-export RBENV_ROOT="/usr/local/var/rbenv"
-if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
+# export RBENV_ROOT="/usr/local/var/rbenv"
+# if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
 # Go Stuff
 # export GOPATH=$HOME/dev/Go
@@ -255,7 +255,7 @@ alias tfjq='tail -f log/development.log | jq "{ path: .mdc.path, status: .mdc.st
 
 
 
-source $HOME/.zshrc-work
+# source $HOME/.zshrc-work
 
 source ~/.my-zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH/plugins/fasd/fasd.plugin.zsh
@@ -265,7 +265,7 @@ source $ZSH/plugins/fasd/fasd.plugin.zsh
 
 # export PATH=/usr/lib/go-1.8/bin:$PATH
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 
 # Yarn stuff
@@ -277,21 +277,21 @@ export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib
 # Add bin (where lein lives to path)
 # export PATH=$PATH:$HOME/bin
 
-# export NVM_DIR=$(brew --prefix nvm)
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+export NVM_DIR=$HOME/.nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-export NVM_DIR="$HOME/.nvm"
- . "/usr/local/opt/nvm/nvm.sh"
+# export NVM_DIR="$HOME/.nvm"
+# . "/usr/local/opt/nvm/nvm.sh"
 
 export PATH=/${HOME}/.local/bin/luna-studio:$PATH
 
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+# . $HOME/.asdf/asdf.sh
+# . $HOME/.asdf/completions/asdf.bash
 
-export ANDROID_HOME=$HOME/sdks/android
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export JAVA_HOME=$(/usr/libexec/java_home)
+# export ANDROID_HOME=$HOME/sdks/android
+# export PATH=$PATH:$ANDROID_HOME/tools
+# export PATH=$PATH:$ANDROID_HOME/tools/bin
+# export JAVA_HOME=$(/usr/libexec/java_home)
 
 
 GPG_TTY=$(tty)

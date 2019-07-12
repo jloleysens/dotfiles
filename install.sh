@@ -1,9 +1,20 @@
 #! /usr/bin/env bash
 
-ln -s ./.zshrc ${HOME}/.zshrc
-ln -s ./.gitconfig ${HOME}/.gitconfig
-ln -s ./.jrnl_config ${HOME}/.jrnl_config
+for dotfile in .zshrc .gitconfig .jrnl_config
+do
+  echo "Removing $dotfile..."
+  rm -f "${HOME}/$dotfile"
+  echo "Linking $dotfile..."
+  ln -s $PWD/$dotfile $HOME/$dotfile
+done
+
+# Spacer
+echo
+
+echo "Checking depdendencies..."
 
 # Project dependencies (mac only at this point)
-brew install fzf
-brew install bat
+type fzf || brew install fzf
+type bat || brew install bat
+
+echo "Done!"

@@ -4,7 +4,7 @@
 # Please adapt and uncomment the following lines:
   name = Jean-Louis Leysens
   email = jloleysens@gmail.com
-  signingKey = 58303DF898148E17
+  signingKey = 412CDB26A0C7FD77
 [core]
   editor = nano
 [url "ssh://git@heroku.com/"]

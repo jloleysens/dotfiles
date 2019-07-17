@@ -51,7 +51,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git wd)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -252,8 +252,6 @@ alias dcn='docker-compose rm -v'
 
 # rails logging stuff
 alias tfjq='tail -f log/development.log | jq "{ path: .mdc.path, status: .mdc.status, method: .mdc.request_method, message: .message }"'
-
-
 
 # source $HOME/.zshrc-work
 

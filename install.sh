@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-for dotfile in .zshrc .gitconfig .jrnl_config
+for dotfile in .zshrc .gitconfig .jrnl_config .warprc
 do
   echo "Removing $dotfile..."
   rm -f "${HOME}/$dotfile"

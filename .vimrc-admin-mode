@@ -1,5 +1,6 @@
 set nocompatible
 set relativenumber
 set syntax=on
+set clipboard=unnamedplus
 
 inoremap jk <esc>

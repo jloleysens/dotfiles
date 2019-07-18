@@ -1,11 +1,30 @@
 #! /usr/bin/env bash
 
-for dotfile in .zshrc .gitconfig .jrnl_config .warprc
+function make_sym_link() {
+  echo "Removing $2..."
+  rm -f $2
+  echo "Linking $1 => $2..."
+  ln -s $1 $2
+}
+
+for dotfile in .zshrc .gitconfig .jrnl_config .warprc .vimrc-admin-mode
 do
-  echo "Removing $dotfile..."
-  rm -f "${HOME}/$dotfile"
-  echo "Linking $dotfile..."
-  ln -s $PWD/$dotfile $HOME/$dotfile
+
+  case $dotfile in
+  '.vimrc-admin-mode')
+    FileName=.vimrc
+    ;;
+  *)
+    FileName=$dotfile
+    ;;
+  esac
+
+  make_sym_link $PWD/$dotfile $HOME/$FileName
+
+  if [ $FileName = '.vimrc' ]
+  then
+    make_sym_link $HOME/$FileName $HOME/.ideavimrc
+  fi
 done
 
 # Spacer

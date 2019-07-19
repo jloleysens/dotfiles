@@ -2,5 +2,7 @@ set nocompatible
 set relativenumber
 set syntax=on
 set clipboard=unnamedplus
+set visualbell
+set noerrorbells
 
 inoremap jk <esc>

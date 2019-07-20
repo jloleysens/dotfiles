@@ -1,7 +1,8 @@
 set nocompatible
-set relativenumber
+set nu
 set syntax=on
 set clipboard=unnamedplus
+set visualbell
 set noerrorbells
 
 inoremap jk <esc>

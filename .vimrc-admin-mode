@@ -1,5 +1,6 @@
 set nocompatible
-set relativenumber
+" set relativenumber
+set nu
 set syntax=on
 set clipboard=unnamedplus
 set visualbell

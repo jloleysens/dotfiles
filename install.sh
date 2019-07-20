@@ -35,5 +35,6 @@ echo "Checking depdendencies..."
 # Project dependencies (mac only at this point)
 type fzf || brew install fzf
 type bat || brew install bat
+type ag || brew install ag
 
 echo "Done!"

@@ -113,11 +113,13 @@ export PATH=/usr/local/bin:$PATH
 # export FZF_DEFAULT_OPTS='
 #     --color dark,hl:33,hl+:37,fg+:235,bg+:136,fg+:254
 #     --color info:254,prompt:37,spinner:108,pointer:235,marker:235
-# '
+#
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Latex bins
 # export PATH=/usr/local/texlive/2016basic/bin/universal-darwin:$PATH
+
 
 # Hub stuff
 eval "$(hub alias -s)"
@@ -135,10 +137,6 @@ hub() {
 # PS
 alias psg="ps aux | grep "
 alias psr='ps aux | grep ruby'
-
-# Moving around
-alias cdb='cd -'
-alias cls='clear;ls'
 
 # show me files matching "ls grep"
 alias lsg='ll | grep'
@@ -291,16 +289,14 @@ export PATH=/${HOME}/.local/bin/luna-studio:$PATH
 # export PATH=$PATH:$ANDROID_HOME/tools/bin
 # export JAVA_HOME=$(/usr/libexec/java_home)
 
-
 GPG_TTY=$(tty)
 export GPG_TTY
-
-
-autoload -U promptinit; promptinit
-prompt pure
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '${HOME}.gc/google-cloud-sdk/path.zsh.inc' ]; then . '/${HOME}.gc/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '${HOME}.gc/google-cloud-sdk/completion.zsh.inc' ]; then . '/${HOME}/.gc/google-cloud-sdk/completion.zsh.inc'; fi
+
+autoload -U promptinit; promptinit
+prompt pure

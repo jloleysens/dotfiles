@@ -75,12 +75,6 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# Stern
-
-function sternj() {
-  stern -n journey $1
-}
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -115,11 +109,11 @@ export PATH=/usr/local/bin:$PATH
 #     --color info:254,prompt:37,spinner:108,pointer:235,marker:235
 #
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Latex bins
 # export PATH=/usr/local/texlive/2016basic/bin/universal-darwin:$PATH
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Hub stuff
 eval "$(hub alias -s)"
@@ -215,22 +209,15 @@ alias ze='vi ~/.zshrc'
 # alias gx='gitx'
 
 # Common shell functions
-alias less='less -r'
 alias tf='tail -f'
 alias lh='ls -alt | head' # see the last modified files
 alias screen='TERM=screen screen'
 alias cl='clear'
 
-# Zippin
-alias gz='tar -zcvf'
-
 # Ruby
 # alias c='rails c' # Rails 3
 alias co='script/console' # Rails 2
 alias cod='script/console --debugger'
-
-alias ka9='killall -9'
-alias k9='kill -9'
 
 # Finder
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
@@ -247,9 +234,6 @@ alias dcu='docker-compose up'
 alias dcs='docker-compose stop'
 alias dcb='docker-compose build'
 alias dcn='docker-compose rm -v'
-
-# rails logging stuff
-alias tfjq='tail -f log/development.log | jq "{ path: .mdc.path, status: .mdc.status, method: .mdc.request_method, message: .message }"'
 
 # source $HOME/.zshrc-work
 

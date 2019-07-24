@@ -4,5 +4,6 @@ set syntax=on
 set clipboard=unnamedplus
 set visualbell
 set noerrorbells
+set surround
 
 inoremap jk <esc>

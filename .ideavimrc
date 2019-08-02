@@ -1,7 +1,8 @@
 set nocompatible
 set nu
 set syntax=on
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
+set clipboard+=ideaput
 set visualbell
 set noerrorbells
 set surround

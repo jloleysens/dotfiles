@@ -2237,7 +2237,16 @@
 	</dict>
 	<key>NoSyncSearchHistory</key>
 	<array>
-		<string>spec</string>
+		<string>rollupJobMetricsSelectAllCheckbox-max </string>
+		<string>rollupJobMetricsSelectAllCheckbox-max  </string>
+		<string>rollupJobMetricsCheckbox-avg</string>
+		<string>rollupJobMetricsCheckboxav</string>
+		<string>rollupJobMetricsCheckbox-max</string>
+		<string>indeterminate: true</string>
+		<string>value_count</string>
+		<string>value-c</string>
+		<string>-avg</string>
+		<string>input</string>
 	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>584528186.40757203</real>

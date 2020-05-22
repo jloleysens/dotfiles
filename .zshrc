@@ -22,6 +22,9 @@ ZSH_THEME=""
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
 
+# Silence vim error message regarding setting locale to en_NL
+export LC_ALL=en_US.UTF-8
+
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
 
@@ -114,6 +117,9 @@ export PATH=/usr/local/bin:$PATH
 # export PATH=/usr/local/texlive/2016basic/bin/universal-darwin:$PATH
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export FZF_DEFAULT_COMMAND='ag -g ""'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # Hub stuff
 eval "$(hub alias -s)"
@@ -265,13 +271,18 @@ export NVM_DIR=$HOME/.nvm
 
 export PATH=/${HOME}/.local/bin/luna-studio:$PATH
 
+# Completions
 # . $HOME/.asdf/asdf.sh
 # . $HOME/.asdf/completions/asdf.bash
+# . $HOME/.zsh/deno-completions.zsh
+
 
 # export ANDROID_HOME=$HOME/sdks/android
 # export PATH=$PATH:$ANDROID_HOME/tools
 # export PATH=$PATH:$ANDROID_HOME/tools/bin
 # export JAVA_HOME=$(/usr/libexec/java_home)
+
+export FZF_DEFAULT_COMMAND='ag -g ""'
 
 GPG_TTY=$(tty)
 export GPG_TTY
@@ -282,5 +293,12 @@ if [ -f '${HOME}.gc/google-cloud-sdk/path.zsh.inc' ]; then . '/${HOME}.gc/google
 # The next line enables shell command completion for gcloud.
 if [ -f '${HOME}.gc/google-cloud-sdk/completion.zsh.inc' ]; then . '/${HOME}/.gc/google-cloud-sdk/completion.zsh.inc'; fi
 
+# Install pure prompt theme
+# Disable ZSH Themes
+export ZSH_THEME=""
+# Location of git repo
+fpath+=$HOME/.zsh/pure
+# Speed up bigger repos like Kibana
+export PURE_GIT_UNTRACKED_DIRTY=0
 autoload -U promptinit; promptinit
 prompt pure

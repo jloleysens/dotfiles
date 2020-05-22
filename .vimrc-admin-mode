@@ -1,8 +1,1 @@
-set nocompatible
-set nu
-set relativenumber
-set syntax=on
-set clipboard=unnamedplus
-set noerrorbells
-
-inoremap jk <esc>
+source $HOME/.vim/main.vim
